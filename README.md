@@ -1,5 +1,7 @@
 # Frontend Mentor - Todo app
 
+# [Link preview](https://festive-almeida-56eb08.netlify.app/)
+
 ![Design preview for the Todo app coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
