@@ -1,0 +1,55 @@
+.body-light {
+    background: rgba(aliceblue, 0.5);
+    transition: all .3s;
+}
+
+.output-container-light {
+    background-color: $very-light-gray-light;
+}
+
+.todo-input-light,
+.output-light {
+    background-color: $very-light-gray-light;
+    transition: all .3s;
+    input[type="text"] {
+        font-family: $font;
+        font-weight: 400;
+        width: 92%;
+        height: 2.5rem;
+        background: transparent;
+        outline: none;
+        border: none;
+        font-size: 1.3rem;
+        color: black;
+        transition: all .3s;
+    }
+    p {
+        font-family: $font;
+        font-weight: 400;
+        width: 91%;
+        color: black;
+        font-size: 1.35rem;
+        transition: all .3s;
+    }
+}
+
+.remaining-light {
+    background-color: $very-light-gray-light;
+    transition: all .3s;
+    p {
+        color: rgba(black, 0.6);
+        transition: all .3s;
+    }
+    button {
+        color: rgba(black, 0.6);
+        transition: all .3s;
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+.remove-parent {
+    transform: translateY(9rem) rotateZ(30deg);
+    opacity: 0;
+}

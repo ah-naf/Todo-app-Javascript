@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="stylesheet" href="Styles/style.css">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/bg-desktop-dark.jpg" alt="" class="bg-img-dark dekstop-img">
+        <img src="images/bg-desktop-light.jpg" alt="" class="bg-img-light dekstop-img">
+        <img src="images/bg-mobile-dark.jpg" alt="" class="mobile-img-dark mobile-img">
+        <img src="images/bg-mobile-light.jpg" alt="" class="mobile-img-light mobile-img">
+        <div class="container">
+            <div class="top-container">
+                <h1>TODO</h1>
+                <div class="mode">
+                    <img src="images/icon-sun.svg" alt="" class="toggle sun">
+                    <img src="images/icon-moon.svg" alt="" class="toggle moon">
+                </div>
+            </div>
+            <div class="middle-container">
+                <div class="todo-input">
+                    <!-- light -->
+                    <button class="input-check">
+                      <div class="check-bg" id="chk"><img src="images/icon-check.svg" alt="" style="z-index: 3;" class="check-icon"></div>
+                    </button>
+                    <input type="text" name="" id="input" placeholder="Create a new todo...">
+                </div>
+            </div>
+            <div class="output-container">
+                <div class="todo-output">
+
+                </div>
+            </div>
+            <div class="remaining">
+                <p id="left">0 items left</p>
+                <div class="clickable">
+                    <button class="filter filter-desktop active-btn-dark">All</button>
+                    <button class="filter filter-desktop">Active</button>
+                    <button class="filter filter-desktop">Completed</button>
+                    <button class="clear-btn">Clear Completed</button>
+                </div>
+            </div>
+            <div class="remaining-mobile remaining">
+                <div class="clickable-mobile">
+                    <button class="filter filter-mobile active-btn-dark">All</button>
+                    <button class="filter filter-mobile">Active</button>
+                    <button class="filter filter-mobile">Completed</button>
+                </div>
+            </div>
+    </header>
+
+
+    <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

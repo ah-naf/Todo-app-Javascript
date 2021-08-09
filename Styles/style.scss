@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'header';
+@import 'light';
+@import 'mobile';
+div {
+    transition: all .3s;
+}
+
+.toggle {
+    cursor: pointer;
+}
