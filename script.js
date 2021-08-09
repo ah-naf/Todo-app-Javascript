@@ -59,8 +59,8 @@ toggle.on('click', event => {
 
 
 // Create todo
-$('#input').on('keypress', el => {
-    if (el.code === 'Enter' || el.code === 'NumpadEnter') {
+$('#input').on('keyup', el => {
+    if (el.key === 'Enter' || el.key === 'NumpadEnter' || el.key === 13) {
         el.preventDefault()
         createTodo(el);
     }
